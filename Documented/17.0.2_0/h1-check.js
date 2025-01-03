@@ -6447,6 +6447,7 @@
                 const a = ["trace", "log", "info", "warn", "error"];
                 e.exports = t.default
             },
+            // This may be where for all non-partner stores the commission is replaced
             15772: (e, t, r) => {
                 "use strict";
                 var n = r(14194);

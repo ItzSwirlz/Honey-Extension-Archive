@@ -8011,6 +8011,7 @@
                     }
                 }()), O.Z.sendClickData(), b.Z.addListener("debug:change", (function(t, e) {
                     try {
+                        // TODO: point of interest
                         e.active ? window.honey = D : delete window.honey
                     } catch (t) {}
                 }))
