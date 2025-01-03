@@ -6,5 +6,7 @@ This is an archive of the Honey extension on Chrome Web Store. Specifically, ver
 
 These are likely obfuscated and or minimized in some way but the goal is to truly see in the code what was going on.
 
-# Reverse engineering
-Because of my own time, I probably will not entirely reverse engineer the extension and try to figure everything out, but everyone else is more than welcome to.
+# Documentation
+Because of my own time, I probably will not entirely investigate and document the extension and try to figure everything out, but everyone else is more than welcome to.
+
+However, I have found that there is indeed cookie setting and special handling for special online stores, presumably ones part of Honey's partner program.
