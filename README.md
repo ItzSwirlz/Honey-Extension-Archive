@@ -4,7 +4,7 @@ Archiving the Honey extension, known for stealing possibly billions of dollars (
 # What is this?
 This is a documented archive of the Honey extension on Chrome Web Store. Specifically, version 17.0.2. If anyone has older versions of the extension, feel free to PR them.
 
-The original extension without any changes (such as comments, naming, or formatting) can be found here: https://archive.org/details/honey-extension-17.0.2
+The original extension without any changes (such as comments, naming, or formatting) can be found here on the Internet Archive: https://archive.org/details/honey-extension-17.0.2 or in the Archive/ folder.
 
 These are likely obfuscated and or minimized in some way but the goal is to truly see in the code what was going on.
 
