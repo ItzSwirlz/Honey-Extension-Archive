@@ -1,1 +1,2 @@
-"use strict";window.prompt=()=>!0;
+"use strict";
+window.prompt = () => !0;

@@ -1,1 +1,2 @@
-"use strict";window.confirm=()=>!1;
+"use strict";
+window.confirm = () => !1;
