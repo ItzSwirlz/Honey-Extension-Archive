@@ -4025,9 +4025,9 @@
                     return n
                 }
 
-                function D() {
+                function regeneratorRuntime() {
                     /*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */
-                    D = function() {
+                    regeneratorRuntime = function() {
                         return e
                     };
                     var t, e = {},
@@ -4429,9 +4429,9 @@
                 }
 
                 function $() {
-                    return ($ = M(D().mark((function t(e, r, n) {
+                    return ($ = M(regeneratorRuntime().mark((function t(e, r, n) {
                         var o, i;
-                        return D().wrap((function(t) {
+                        return regeneratorRuntime().wrap((function(t) {
                             for (;;) switch (t.prev = t.next) {
                                 case 0:
                                     return t.next = 2, j.Z.getContentScriptUrl();
@@ -4522,9 +4522,9 @@
                 }
 
                 function X() {
-                    return (X = M(D().mark((function t(e) {
+                    return (X = M(regeneratorRuntime().mark((function t(e) {
                         var r, n, o;
-                        return D().wrap((function(t) {
+                        return regeneratorRuntime().wrap((function(t) {
                             for (;;) switch (t.prev = t.next) {
                                 case 0:
                                     return t.next = 2, q(e);
@@ -4545,9 +4545,9 @@
                 }
 
                 function et() {
-                    return (et = M(D().mark((function t(e) {
+                    return (et = M(regeneratorRuntime().mark((function t(e) {
                         var r, n, o;
-                        return D().wrap((function(t) {
+                        return regeneratorRuntime().wrap((function(t) {
                             for (;;) switch (t.prev = t.next) {
                                 case 0:
                                     if (!j.Z.inPopover()) {
@@ -4597,9 +4597,9 @@
                 }
 
                 function ot() {
-                    return (ot = M(D().mark((function t(e) {
+                    return (ot = M(regeneratorRuntime().mark((function t(e) {
                         var r;
-                        return D().wrap((function(t) {
+                        return regeneratorRuntime().wrap((function(t) {
                             for (;;) switch (t.prev = t.next) {
                                 case 0:
                                     return t.next = 2, tt(e);
@@ -4618,9 +4618,9 @@
                 }
 
                 function at() {
-                    return (at = M(D().mark((function t() {
+                    return (at = M(regeneratorRuntime().mark((function t() {
                         var e;
-                        return D().wrap((function(t) {
+                        return regeneratorRuntime().wrap((function(t) {
                             for (;;) switch (t.prev = t.next) {
                                 case 0:
                                     return t.next = 2, j.Z.getContentScriptUrl();
@@ -4655,9 +4655,9 @@
                 }
 
                 function lt() {
-                    return (lt = M(D().mark((function t(e, r, n) {
+                    return (lt = M(regeneratorRuntime().mark((function t(e, r, n) {
                         var o, i, a;
-                        return D().wrap((function(t) {
+                        return regeneratorRuntime().wrap((function(t) {
                             for (;;) switch (t.prev = t.next) {
                                 case 0:
                                     if (n) {
@@ -4774,14 +4774,14 @@
                                     return k.Z.cleanStringUpper(t.code) === k.Z.cleanStringUpper(r)
                                 })),
                                 i = function() {
-                                    var e = M(D().mark((function e(a) {
+                                    var e = M(regeneratorRuntime().mark((function e(a) {
                                         var c, s = arguments;
-                                        return D().wrap((function(e) {
+                                        return regeneratorRuntime().wrap((function(e) {
                                             for (;;) switch (e.prev = e.next) {
                                                 case 0:
-                                                    c = s.length > 1 && void 0 !== s[1] ? s[1] : 20, clearTimeout(B), B = setTimeout(M(D().mark((function e() {
+                                                    c = s.length > 1 && void 0 !== s[1] ? s[1] : 20, clearTimeout(B), B = setTimeout(M(regeneratorRuntime().mark((function e() {
                                                         var s, l, f, p, d, h, y, O, P, x, j;
-                                                        return D().wrap((function(e) {
+                                                        return regeneratorRuntime().wrap((function(e) {
                                                             for (;;) switch (e.prev = e.next) {
                                                                 case 0:
                                                                     if (s = /\d/.test(u()(t.metadata.pns_siteSelCartTotalPrice).last().text()), l = k.Z.cleanPrice(u()(t.metadata.pns_siteSelCartTotalPrice).last().text()), s && l !== n || !(a > 0) || 20 !== c) {
@@ -4796,9 +4796,9 @@
                                                                     }
                                                                     return e.abrupt("return", i(a - 100, c - 1));
                                                                 case 7:
-                                                                    return M(D().mark((function e() {
+                                                                    return M(regeneratorRuntime().mark((function e() {
                                                                         var r;
-                                                                        return D().wrap((function(e) {
+                                                                        return regeneratorRuntime().wrap((function(e) {
                                                                             for (;;) switch (e.prev = e.next) {
                                                                                 case 0:
                                                                                     return e.prev = 0, e.next = 3, g.Z.get("cartLastSeenTotalPrice:".concat(t.id));
@@ -5009,9 +5009,9 @@
                 }
 
                 function wt() {
-                    return (wt = M(D().mark((function t(e) {
+                    return (wt = M(regeneratorRuntime().mark((function t(e) {
                         var r, n, o;
-                        return D().wrap((function(t) {
+                        return regeneratorRuntime().wrap((function(t) {
                             for (;;) switch (t.prev = t.next) {
                                 case 0:
                                     return r = !1, n = P.Z.getCtaType(e), t.next = 4, g.Z.get("user:lastSavings:".concat(e.id, ":").concat(n)).catch(H, (function() {
@@ -5045,9 +5045,9 @@
                 }
 
                 function St() {
-                    return (St = M(D().mark((function t(e) {
+                    return (St = M(regeneratorRuntime().mark((function t(e) {
                         var r, n, o, i, a, c, u, s;
-                        return D().wrap((function(t) {
+                        return regeneratorRuntime().wrap((function(t) {
                             for (;;) switch (t.prev = t.next) {
                                 case 0:
                                     return t.next = 2, L.Z.getFeatureFlag("ext_mixin_fallback_enabled");
@@ -5070,9 +5070,9 @@
                     return xt ? o().resolve() : (xt = !0, it().then((function(t) {
                         var e = P.Z.getCtaType(t);
                         o().all([P.Z.isApplying(), g.Z.get("stores:notification"), t.applyCodesClick ? dt() : "", g.Z.get("user:lastSavings:".concat(t.id, ":").concat(e)), g.Z.get("store:hide:".concat(t.id))]).spread(function() {
-                            var r = M(D().mark((function r(n, o, i) {
+                            var r = M(regeneratorRuntime().mark((function r(n, o, i) {
                                 var c, u, s, p, d, h, y, b, g, w, O = arguments;
-                                return D().wrap((function(r) {
+                                return regeneratorRuntime().wrap((function(r) {
                                     for (;;) switch (r.prev = r.next) {
                                         case 0:
                                             if (c = O.length > 3 && void 0 !== O[3] ? O[3] : {}, u = O.length > 4 ? O[4] : void 0, t && t.supported) {
@@ -5150,9 +5150,9 @@
                                                 feature: "graceful-failure",
                                                 surface: "badge"
                                             }), d = Ot(c, t), h = !!t.coupons.length, y = function() {
-                                                var e = M(D().mark((function e() {
+                                                var e = M(regeneratorRuntime().mark((function e() {
                                                     var r, n, o, i, c, u, s, l;
-                                                    return D().wrap((function(e) {
+                                                    return regeneratorRuntime().wrap((function(e) {
                                                         for (;;) switch (e.prev = e.next) {
                                                             case 0:
                                                                 if (t.id !== Z.l) {
@@ -5249,9 +5249,9 @@
                 });
 
                 function Et() {
-                    return (Et = M(D().mark((function t() {
+                    return (Et = M(regeneratorRuntime().mark((function t() {
                         var e, r, n;
-                        return D().wrap((function(t) {
+                        return regeneratorRuntime().wrap((function(t) {
                             for (;;) switch (t.prev = t.next) {
                                 case 0:
                                     return t.next = 2, it();
@@ -5304,9 +5304,9 @@
                 }
 
                 function Lt() {
-                    return (Lt = M(D().mark((function t() {
+                    return (Lt = M(regeneratorRuntime().mark((function t() {
                         var e;
-                        return D().wrap((function(t) {
+                        return regeneratorRuntime().wrap((function(t) {
                             for (;;) switch (t.prev = t.next) {
                                 case 0:
                                     return t.next = 2, it();
@@ -5353,12 +5353,12 @@
                 }
 
                 function Tt() {
-                    return (Tt = M(D().mark((function t(e, r, n, o) {
+                    return (Tt = M(regeneratorRuntime().mark((function t(e, r, n, o) {
                         var i, a;
-                        return D().wrap((function(t) {
+                        return regeneratorRuntime().wrap((function(t) {
                             for (;;) switch (t.prev = t.next) {
                                 case 0:
-                                    return t.next = 2, j.Z.getContentScriptUrl();
+                                    return t.next = 2, j.Z.getContentScriptUrl();  // get dummy store url's content?
                                 case 2:
                                     return i = t.sent, a = k.Z.cleanString(n, i), q(e).then((function(t) {
                                         t.metadata && "true" === t.metadata.pns_affFlush && (b.Z.debug("Tag - refreshing local state"), document.cookie.split(";").forEach((function(t) {
@@ -5410,9 +5410,9 @@
                 }
 
                 function Ft() {
-                    return (Ft = M(D().mark((function t() {
+                    return (Ft = M(regeneratorRuntime().mark((function t() {
                         var e, r;
-                        return D().wrap((function(t) {
+                        return regeneratorRuntime().wrap((function(t) {
                             for (;;) switch (t.prev = t.next) {
                                 case 0:
                                     if (void 0 === jt) {
@@ -5439,8 +5439,8 @@
                 }
 
                 function Rt() {
-                    return (Rt = M(D().mark((function t() {
-                        return D().wrap((function(t) {
+                    return (Rt = M(regeneratorRuntime().mark((function t() {
+                        return regeneratorRuntime().wrap((function(t) {
                             for (;;) switch (t.prev = t.next) {
                                 case 0:
                                     return t.next = 2, o().delay(100);
@@ -5503,9 +5503,9 @@
                 })), m.Z.addListener("pageDetected:GOLD_REWARDS", (function() {
                     _t()
                 })), m.Z.addListener("tabs:activated", function() {
-                    var t = M(D().mark((function t(e, r) {
+                    var t = M(regeneratorRuntime().mark((function t(e, r) {
                         var n;
-                        return D().wrap((function(t) {
+                        return regeneratorRuntime().wrap((function(t) {
                             for (;;) switch (t.prev = t.next) {
                                 case 0:
                                     return t.next = 2, j.Z.getCurrent();
@@ -5524,8 +5524,8 @@
                     return function(e, r) {
                         return t.apply(this, arguments)
                     }
-                }()), m.Z.addListener("stores:pageview", M(D().mark((function t() {
-                    return D().wrap((function(t) {
+                }()), m.Z.addListener("stores:pageview", M(regeneratorRuntime().mark((function t() {
+                    return regeneratorRuntime().wrap((function(t) {
                         for (;;) switch (t.prev = t.next) {
                             case 0:
                                 return t.next = 2, kt();

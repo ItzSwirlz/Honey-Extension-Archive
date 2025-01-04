@@ -21830,6 +21830,8 @@
                         R.couponsEnabled && R.metadata.pns_codeTopFunnel && P.applyCodeTopFunnel(R.coupons[0].code)
                     }))
                 })), u()((() => M().then((() => {
+                    // TODO: Invesdtigate
+                    // M () -> calls l(t, o) -> leads to a function which seems to recreate an object
                     b.inPopover() || (R.onFindSavingsPage ? F() : c.addListener("stores:current:update", N))
                 })).catch((() => {})))), {
                     applyCodeNonDac: function(e) {
